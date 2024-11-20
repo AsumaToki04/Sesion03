@@ -29,9 +29,12 @@ struct ContentView02: View {
             
             Button("Agregar persona") {
                 let newPosition = listaPersonas.count + 1
-                let nuevaPersona = Persona(nombre: "Persona # \(newPosition)")
+                let nuevaPersona = Persona(nombre: "Persona #\(newPosition)")
                 listaPersonas.append(nuevaPersona)
+                guardarDatos()
             }
+        }.onAppear {
+            cargarDatos()
         }
     }
     
