@@ -11,6 +11,7 @@
 		B7AC9E8F2CED628300D0954C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC9E8E2CED628300D0954C /* ContentView.swift */; };
 		B7AC9E912CED628400D0954C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7AC9E902CED628400D0954C /* Assets.xcassets */; };
 		B7AC9E942CED628400D0954C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7AC9E932CED628400D0954C /* Preview Assets.xcassets */; };
+		B7AC9EA12CED649C00D0954C /* ContentView01.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC9EA02CED649C00D0954C /* ContentView01.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B7AC9E8E2CED628300D0954C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B7AC9E902CED628400D0954C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7AC9E932CED628400D0954C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7AC9EA02CED649C00D0954C /* ContentView01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView01.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				B7AC9E8E2CED628300D0954C /* ContentView.swift */,
 				B7AC9E902CED628400D0954C /* Assets.xcassets */,
 				B7AC9E922CED628400D0954C /* Preview Content */,
+				B7AC9EA02CED649C00D0954C /* ContentView01.swift */,
 			);
 			path = Sesion03;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7AC9EA12CED649C00D0954C /* ContentView01.swift in Sources */,
 				B7AC9E8F2CED628300D0954C /* ContentView.swift in Sources */,
 				B7AC9E8D2CED628300D0954C /* Sesion03App.swift in Sources */,
 			);
